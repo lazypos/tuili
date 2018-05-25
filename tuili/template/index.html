@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用户注册</title>
+	<meta http-equiv="keywords" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" href="E:\sroucecode/tuili/layui/css/layui.css">
+	<style type="text/css">
+		body {
+			text-align: center;
+			margin: 0;
+		}
+		.maindiv {
+			margin-top: 200px;
+		}
+		.foot{
+			padding-top: 20px; 
+			color: #4b4b4b; 
+			font-size: 14px;
+		}
+	</style>
+</head>
+<body>
+	<div class="maindiv">
+		<div class="layui-field-box">
+		<div class="layui-elem-field">
+			<div class="layui-field-box">
+				<div class="zcw-logo"><b>办公系统</b><span style="font-size: 20px;"> 登陆</span></div>
+				<form class="layui-form">
+		            <div class="layui-form-item">
+					<div class="layui-input-block">
+					<input type="text" name="user" placeholder="用户名" autocomplete="off" class="layui-input" />
+					</div>
+					</div>
+					<div class="layui-form-item">
+					<div class="layui-input-block">
+					<input type="password" name="pass" placeholder="密码" autocomplete="off" class="layui-input" />
+					</div>
+					</div>
+					<div class="layui-input-block">
+					<a href=""><i>忘记密码</i></a>
+					<button class="layui-btn layui-btn-sm layui-btn-normal" onclick="return verity()">登陆</button>
+					</div>
+		        </form>
+			</div>
+		</div>
+			
+		<div class="foot">www.tuiliwu.cn <span>京ICP证030173号</span></div>
+		<script type="text/javascript">
+			
+		</script>
+	</div>
+<script src="../../layui/layui.js"></script>
+<script src="../../layui/jquery-1.7.2.min.js"></script>
+<script>
+	layui.use('element', function(){
+	    var element = layui.element;
+	});
+	layui.use('layer', function(){});
+</script>
+</body>
+</html>
